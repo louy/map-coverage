@@ -1,6 +1,6 @@
 {
   "name": "map-coverage",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generate coverage files from your source maps",
   "main": "index.js",
   "scripts": {
