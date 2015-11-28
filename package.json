@@ -1,0 +1,29 @@
+{
+  "name": "map-coverage",
+  "version": "0.0.1",
+  "description": "Generate coverage files from your source maps",
+  "main": "index.js",
+  "scripts": {
+    "lint": "tslint index.ts",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urbanmassage/hata.git"
+  },
+  "author": "Louay Alakkad <louay@alakkad.me>",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/urbanmassage/hata/issues"
+  },
+  "homepage": "https://github.com/urbanmassage/hata#readme",
+  "keywords": [
+    "coverage",
+    "source-map",
+    "source-maps"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+  },
+  "typings": "index.d.ts"
+}
