@@ -7,23 +7,20 @@
     "lint": "tslint index.ts",
     "build": "tsc -p ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/urbanmassage/hata.git"
+  "bin": {
+    "map-coverage": "./cli.js"
   },
   "author": "Louay Alakkad <louay@alakkad.me>",
   "license": "LGPL-3.0",
-  "bugs": {
-    "url": "https://github.com/urbanmassage/hata/issues"
-  },
-  "homepage": "https://github.com/urbanmassage/hata#readme",
   "keywords": [
     "coverage",
     "source-map",
     "source-maps"
   ],
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
+    "glob": "^6.0.1",
+    "lcov-sourcemap": "^0.1.3"
   },
+  "devDependencies": {},
   "typings": "index.d.ts"
 }
