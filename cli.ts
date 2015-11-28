@@ -1,4 +1,4 @@
-#!/bin/node.sh
+#!/usr/bin/env node
 
 import * as mapCoverage from './index';
 
