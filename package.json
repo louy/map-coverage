@@ -4,6 +4,8 @@
   "description": "Generate coverage files from your source maps",
   "main": "index.js",
   "scripts": {
+    "preversion": "npm run build",
+    "postversion": "git push --follow-tags",
     "build": "tsc -p ."
   },
   "bin": {
