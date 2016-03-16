@@ -4,7 +4,6 @@
   "description": "Generate coverage files from your source maps",
   "main": "index.js",
   "scripts": {
-    "lint": "tslint index.ts",
     "build": "tsc -p ."
   },
   "bin": {
@@ -22,7 +21,6 @@
     "lcov-sourcemap": "^0.2.0"
   },
   "devDependencies": {
-    "tslint": "^3.2.1",
     "typescript": "^1.7.5"
   },
   "typings": "index.d.ts",
