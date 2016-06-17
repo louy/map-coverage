@@ -19,7 +19,7 @@
     "source-maps"
   ],
   "dependencies": {
-    "glob": "^6.0.4",
+    "glob": "^7.0.4",
     "lcov-sourcemap": "^0.3.0"
   },
   "devDependencies": {
