@@ -1,0 +1,8 @@
+{
+  "name": "map-coverage",
+  "globalDependencies": {
+    "glob": "github:DefinitelyTyped/DefinitelyTyped/glob/glob.d.ts#fb2b3b1e068c9ff7d8f9b0851c08d37d96c95c38",
+    "minimatch": "github:DefinitelyTyped/DefinitelyTyped/minimatch/minimatch.d.ts#fb2b3b1e068c9ff7d8f9b0851c08d37d96c95c38",
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#fb2b3b1e068c9ff7d8f9b0851c08d37d96c95c38"
+  }
+}

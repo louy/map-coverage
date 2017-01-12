@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "preversion": "npm run build",
+    "prepublish": "typings install && typings prune",
     "postversion": "git push --follow-tags",
     "build": "tsc -p ."
   },
@@ -23,7 +24,8 @@
     "lcov-sourcemap": "^0.3.0"
   },
   "devDependencies": {
-    "typescript": "^1.8.9"
+    "typescript": "^2.1.5",
+    "typings": "^2.1.0"
   },
   "typings": "index.d.ts",
   "repository": {
